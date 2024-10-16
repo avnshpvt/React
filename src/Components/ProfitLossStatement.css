@@ -1,0 +1,96 @@
+.statement-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  max-width: 850px;
+  margin: auto;
+  border: 1px solid #000;
+}
+
+.statement-header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+  font-weight: bold; /* Makes the text bold */
+}
+
+.company-info {
+  text-align: right;
+}
+
+.statement-details table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.statement-details table th, 
+.statement-details table td {
+  padding: 8px;
+  text-align: left;
+}
+
+.section-header {
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.statement-footer {
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.statement-footer div {
+  width: 30%;
+}
+
+.dates-heading {
+  text-align: right;
+  font-weight: bold;
+  /* margin-left: 70px; */
+}
+.statement-bold{
+  font-weight: bold;
+}
+.statement-rightfooter{
+  text-align: right;
+}
+.margin{
+margin-left: 10px;
+}
+.underlined {
+  border-bottom: 2px solid black;
+  display: inline-block; 
+  padding-bottom: 0px; 
+}
+.double-underlined {
+  border-bottom: 6px double black; 
+  display: inline-block;
+  padding-bottom: 2px; 
+}
+
+.export-button-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.export-button {
+  background-color: #4CAF50; 
+  border: none; 
+  color: white; 
+  padding: 12px 24px; 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px; 
+  margin: 10px 0; 
+  cursor: pointer; 
+  border-radius: 4px; 
+}
+
+.export-button:hover {
+  background-color: #45a049; 
+}
+
+
